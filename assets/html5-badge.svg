@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="55" viewBox="0 0 180 55">
+
+    <rect width="180" height="55" rx="6" fill="#FF9933"/>
+
+    <path d="M35 10 L39 43 L50 47 L61 43 L65 10 Z"
+          fill="#138808"/>
+
+    <text x="50"
+          y="34"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="16"
+          font-weight="bold"
+          fill="#FF9933">5</text>
+
+    <text x="118"
+          y="35"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="21"
+          font-weight="bold"
+          fill="#138808">HTML5</text>
+
+</svg>
