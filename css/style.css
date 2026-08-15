@@ -13,7 +13,7 @@ body {
 
 
 /* =========================
-   Common Indian Flag Colours
+   Indian Flag Colours
    ========================= */
 
 .saffron-text {
@@ -97,18 +97,7 @@ body {
 
 
 /* =========================
-   Main Area
-   ========================= */
-
-main {
-    width: 94%;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-
-/* =========================
-   Flag Section
+   Indian National Flag
    ========================= */
 
 .flag-section {
@@ -267,7 +256,7 @@ main {
 
 
 /* =========================
-   Buttons
+   Celebration Buttons
    ========================= */
 
 .button-section {
@@ -488,21 +477,32 @@ button:hover {
 footer {
     text-align: center;
     background-color: #ffffff;
-    padding: 25px 20px;
+    padding: 25px 20px 35px;
 }
 
 .prepared {
     color: #000080;
     font-size: 22px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
+
+
+/* Actual Handwritten Signature */
 
 .signature-area {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 8px;
+    margin-top: 5px;
+}
+
+.signature-image {
+    width: 320px;
+    max-width: 55%;
+    height: auto;
+    display: block;
 }
 
 .signature-line {
@@ -511,23 +511,16 @@ footer {
     background-color: #000080;
 }
 
-.signature {
-    color: #000080;
-    font-family: cursive;
-    font-size: 32px;
-    font-style: italic;
-}
-
 .jai-hind {
     color: #FF9933;
     font-size: 28px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 
 /* =========================
-   Animation
+   Flag Animation
    ========================= */
 
 .flag-animation {
@@ -593,6 +586,10 @@ footer {
 
     .unity-section p {
         font-size: 20px;
+    }
+
+    .signature-image {
+        width: 260px;
     }
 
 }
@@ -693,8 +690,9 @@ footer {
         gap: 8px;
     }
 
-    .signature {
-        font-size: 25px;
+    .signature-image {
+        width: 220px;
+        max-width: 65%;
     }
 
     .signature-line {
